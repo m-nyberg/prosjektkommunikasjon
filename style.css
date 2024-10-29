@@ -11,6 +11,13 @@
     --dun: #cdc6aeff;
 }
 
-p{
+p {
     color: var(--ash-gray)
+}
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+
 }
