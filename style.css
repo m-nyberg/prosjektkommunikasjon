@@ -14,6 +14,38 @@
     --dun: #cdc6aeff;
 }
 
+header {
+    height: 70px;
+    background-color: var(--caribbean-current);
+}
+
+a {
+    color: var(--ash-gray);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+
+header {
+    height: 70px;
+    background-color: var(--caribbean-current);
+}
+
+a {
+    color: var(--ash-gray);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+a:hover {
+    font-weight: bolder;
+}
+
+
 p {
     color: var(--cerulean)
 }
@@ -22,6 +54,24 @@ p {
 .flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.siden {
+    color: aqua;
+    background-color: white;
+    padding: 20px;
+    margin-top: 10px;
+    
+}
+.siden a {
+    color: var(--caribbean-current);
+}
+
+.nett{
+    display: grid;
+    grid-template-columns: 200px 200px;
     justify-content: space-evenly;
 }
 
