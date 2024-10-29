@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+}
+
+:root {
+    /* CSS HEX */
+    --blue-ncs: #2589bdff;
+    --cerulean: #187795ff;
+    --caribbean-current: #38686aff;
+    --ash-gray: #a3b4a2ff;
+    --dun: #cdc6aeff;
+}
+
+p{
+    color: var(--ash-gray)
+}
