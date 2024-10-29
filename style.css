@@ -15,12 +15,18 @@
 }
 
 p {
-    color: var(--ash-gray)
+    color: var(--cerulean)
 }
 
 
 .flex {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nett{
+    display: grid;
+    grid-template-columns: 200px 200px;
     justify-content: space-evenly;
 }
