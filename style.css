@@ -82,3 +82,6 @@ tekst1{
     grid-column: 3/4;
 }
 
+.url {
+    display: grid;
+}
