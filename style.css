@@ -144,20 +144,42 @@ p {
     padding: 20px;
     margin-top: 10px;
 
+
 }
+
 
 .siden a {
     color: var(--caribbean-current);
 }
 
-.nett {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: space-evenly;
-}
 
 .nett {
     display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: space-evenly;
+    grid-template-columns: 1fr  100px 1fr ;
+    justify-content: start;
+    height: 100vh;
+    
+}
+
+.nett
+.nett>div{
+    border: solid black;
+}
+
+tekst1{
+    grid-column: 1/2;
+}
+
+.bilde1{
+    grid-column: 3/4;
+}
+
+.rad{
+    display: flex;
+    width: initial;
+    height: 40vh;
+}
+
+.url {
+    display: grid;
 }
