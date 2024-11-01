@@ -68,7 +68,8 @@ p {
 
 .nett{
     display: grid;
-    grid-template-columns: 200px 200px;
+    grid-template-columns: 200px 200px 100px 250px 250px;
     justify-content: start;
+    
 }
 
