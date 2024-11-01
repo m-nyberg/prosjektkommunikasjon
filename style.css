@@ -71,7 +71,7 @@ p {
     display: grid;
     grid-template-columns: 1fr  100px 1fr ;
     justify-content: start;
-    height: 100vh;
+    height: 90vh;
     
 }
 
