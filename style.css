@@ -157,14 +157,10 @@ p {
     display: grid;
     grid-template-columns: 1fr  100px 1fr ;
     justify-content: start;
-    height: 90vh;
+    height: 75vh;
     
 }
 
-.nett
-.nett>div{
-    border: solid black;
-}
 
 tekst1{
     grid-column: 1/2;
