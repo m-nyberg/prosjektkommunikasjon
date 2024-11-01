@@ -69,11 +69,6 @@ p {
 .nett{
     display: grid;
     grid-template-columns: 200px 200px;
-    justify-content: space-evenly;
+    justify-content: start;
 }
 
-.nett{
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: space-evenly;
-}
