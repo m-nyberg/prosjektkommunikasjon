@@ -69,9 +69,14 @@ p {
 
 .nett {
     display: grid;
-    grid-template-columns: 200px  100px 250px ;
+    grid-template-columns: 1fr  100px 1fr ;
     justify-content: start;
+    height: 100vh;
     
+}
+
+.nett>div{
+    border: solid black;
 }
 
 tekst1{
@@ -80,6 +85,12 @@ tekst1{
 
 .bilde1{
     grid-column: 3/4;
+}
+
+.rad{
+    display: flex;
+    width: initial;
+    height: 40vh;
 }
 
 .url {
