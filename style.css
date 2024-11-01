@@ -60,20 +60,25 @@ p {
     background-color: white;
     padding: 20px;
     margin-top: 10px;
-    
+
 }
+
 .siden a {
     color: var(--caribbean-current);
 }
 
-.nett{
+.nett {
     display: grid;
     grid-template-columns: 200px 200px;
     justify-content: space-evenly;
 }
 
-.nett{
+.nett {
     display: grid;
     grid-template-columns: 200px 200px;
     justify-content: space-evenly;
+}
+
+.url {
+    display: grid;
 }
