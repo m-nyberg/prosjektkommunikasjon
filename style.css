@@ -73,3 +73,11 @@ p {
     
 }
 
+tekst1{
+    grid-column: 1/2;
+}
+
+.bilde1{
+    grid-column: 4/5;
+}
+
