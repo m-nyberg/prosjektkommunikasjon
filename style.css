@@ -69,16 +69,16 @@ p {
 
 .nett {
     display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: space-evenly;
+    grid-template-columns: 200px  100px 250px ;
+    justify-content: start;
+    
 }
 
-.nett {
-    display: grid;
-    grid-template-columns: 200px 200px;
-    justify-content: space-evenly;
+tekst1{
+    grid-column: 1/2;
 }
 
-.url {
-    display: grid;
+.bilde1{
+    grid-column: 3/4;
 }
+
