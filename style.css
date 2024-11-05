@@ -8,7 +8,23 @@ h1 {
     margin: auto;
     padding: 30px;
     font-size: 80px;
-    
+
+}
+
+:root {
+    /* CSS HEX */
+    /* CSS HEX */
+    --glaucous: #7580c9ff;
+    --smoky-black: #191308ff;
+    --marian-blue: #2e488fff;
+    --marian-blu: rgb(122, 129, 147);
+    --plum-web: #d196d2ff;
+    --rich-black: #010217ff;
+    --blue-ncs: rgb(75, 37, 189);
+    --cerulean: #187795ff;
+    --caribbean-current: #38686aff;
+    --ash-gray: #a3b4a2ff;
+    --dun: #cdc6aeff;
 }
 
 .acontainer img {
@@ -21,14 +37,14 @@ h1 {
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(11, 1fr);
     grid-template-rows: 50px 150px 50px 250px 100px 250px 100px 250px;
 }
 
 .acontainer>div {
     border: 2px solid black;
     background-color: aliceblue;
-  
+
 }
 
 #aboks1 {
@@ -37,30 +53,35 @@ h1 {
     grid-row: 2/3;
     font-size: 80px;
 }
+
 #aboks2 {
     text-align: left;
     grid-column: 1/4;
     grid-row: 4/5;
     font-size: 40px;
 }
+
 #aboks3 {
-   
+
     grid-column: 5/12;
     grid-row: 4/5;
     font-size: 40px;
 }
+
 #aboks4 {
     text-align: center;
     grid-column: 1/4;
     grid-row: 6/7;
     font-size: 80px;
 }
+
 #aboks5 {
     text-align: center;
     grid-column: 5/8;
     grid-row: 6/7;
     font-size: 80px;
 }
+
 #aboks6 {
     text-align: center;
     grid-column: 9/12;
@@ -74,12 +95,14 @@ h1 {
     grid-row: 8/9;
     font-size: 80px;
 }
+
 #aboks8 {
     text-align: center;
     grid-column: 9/12;
     grid-row: 8/9;
     font-size: 80px;
 }
+
 #aboks9 {
     text-align: center;
     grid-column: 9/12;
@@ -88,22 +111,15 @@ h1 {
 }
 
 
-:root {
-    /* CSS HEX */
-    --blue-ncs: #2589bdff;
-    --cerulean: #187795ff;
-    --caribbean-current: #38686aff;
-    --ash-gray: #a3b4a2ff;
-    --dun: #cdc6aeff;
-}
+
 
 header {
     height: 70px;
-    background-color: var(--caribbean-current);
+    background-color: var(--marian-blue);
 }
 
 a {
-    color: var(--ash-gray);
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -115,14 +131,9 @@ a:hover {
 
 header {
     height: 70px;
-    background-color: var(--caribbean-current);
+    background-color: var(--blue-ncs);
 }
 
-a {
-    color: var(--ash-gray);
-    text-decoration: none;
-    font-size: 20px;
-}
 
 
 
@@ -149,31 +160,36 @@ p {
 
 
 .siden a {
-    color: var(--caribbean-current);
+    color: var(--blue-ncs);
 }
 
 
 .nett {
     display: grid;
-    grid-template-columns: 1fr  100px 1fr ;
+    grid-template-columns: 1fr 100px 1fr;
     justify-content: start;
     height: 75vh;
-    
+
 }
 
 
-tekst1{
+tekst1 {
     grid-column: 1/2;
 }
 
-.bilde1{
+.bilde1 {
     grid-column: 3/4;
 }
 
-.rad{
+.rad {
     display: flex;
     width: initial;
     height: 40vh;
+}
+
+.rad>img{
+    border: solid var(--glaucous)20px;
+    padding: 2%;
 }
 
 .url {
