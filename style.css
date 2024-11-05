@@ -17,9 +17,10 @@ h1 {
     --glaucous: #7580c9ff;
     --smoky-black: #191308ff;
     --marian-blue: #2e488fff;
+    --marian-blu: rgb(122, 129, 147);
     --plum-web: #d196d2ff;
     --rich-black: #010217ff;
-    --blue-ncs: #2589bdff;
+    --blue-ncs: rgb(75, 37, 189);
     --cerulean: #187795ff;
     --caribbean-current: #38686aff;
     --ash-gray: #a3b4a2ff;
@@ -114,11 +115,11 @@ h1 {
 
 header {
     height: 70px;
-    background-color: var(--caribbean-current);
+    background-color: var(--marian-blue);
 }
 
 a {
-    color: var(--ash-gray);
+    color: white;
     text-decoration: none;
     font-size: 20px;
 }
@@ -130,14 +131,9 @@ a:hover {
 
 header {
     height: 70px;
-    background-color: var(--caribbean-current);
+    background-color: var(--blue-ncs);
 }
 
-a {
-    color: var(--ash-gray);
-    text-decoration: none;
-    font-size: 20px;
-}
 
 
 
@@ -164,7 +160,7 @@ p {
 
 
 .siden a {
-    color: var(--caribbean-current);
+    color: var(--blue-ncs);
 }
 
 
@@ -189,6 +185,11 @@ tekst1 {
     display: flex;
     width: initial;
     height: 40vh;
+}
+
+.rad>img{
+    border: solid var(--glaucous)20px;
+    padding: 2%;
 }
 
 .url {
