@@ -21,7 +21,7 @@ h1 {
     width: 80%;
     margin: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:  repeat(11,1fr);
     grid-template-rows: 50px 150px 50px 250px 100px 250px 100px 250px;
 }
 
