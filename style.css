@@ -176,6 +176,11 @@ tekst1{
     height: 40vh;
 }
 
+.rad>img{
+    border: solid black;
+    padding: 2%;
+}
+
 .url {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
