@@ -188,6 +188,11 @@ tekst1 {
     height: 40vh;
 }
 
+.rad>img{
+    border: solid var(--glaucous)20px;
+    padding: 2%;
+}
+
 .url {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
