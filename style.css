@@ -173,7 +173,7 @@ p {
 }
 
 
-tekst1 {
+.tekst1 {
     grid-column: 1/2;
 }
 
@@ -194,6 +194,6 @@ tekst1 {
 
 .url {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 20vh 20vh 20vh;
 }
