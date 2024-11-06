@@ -158,6 +158,15 @@ p {
 
 }
 
+.siden2 {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    margin-top: 10px;
+
+
+}
+
 
 .siden a {
     color: var(--blue-ncs);
@@ -184,12 +193,16 @@ p {
 .rad {
     display: flex;
     width: initial;
-    height: 40vh;
+    height:30vh;
 }
 
-.rad>img{
+.rad>img {
     border: solid var(--glaucous)20px;
     padding: 2%;
+}
+
+.rød{
+    background-color: var(--plum-web);
 }
 
 .url {
