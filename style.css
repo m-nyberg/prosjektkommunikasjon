@@ -180,7 +180,7 @@ h1 {
 .url {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20vh 20vh 20vh;
+    grid-template-rows: 80vh 80vh 80vh;
 }
 
 #slide1 {
@@ -197,13 +197,14 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    padding: 10%;
+    padding: 6%;
 }
 
 #slide2 div {
-    border: 2px solid var(--cerulean);
-    box-shadow: 7px 5px 0 var(--marian-blue);
-    padding: 10%;
+    border: 4px solid var(--cerulean);
+    border-radius: 15px;
+    box-shadow: 7px 5px 7px var(--marian-blue);
+    padding: 12%;
 }
 
 .url img {
@@ -219,7 +220,21 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-content: center;
     padding: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#slide3 div {
+    display: flex;
+    border: 2px solid black;
+    width: 100%;
+    height: 30%;
+    padding: 4%;
+    border-radius: 7px;
 }
 
 #slide4 {
@@ -228,10 +243,12 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    background-color: darkblue;
+    opacity: 70%;
 }
 
-#slide4>div {
-    background-color: var(--caribbean-current);
+#slide4 img {
+    width: 70%;
 }
 
 #slide5 {
@@ -240,4 +257,5 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    background-color: var(--ash-gray);
 }
