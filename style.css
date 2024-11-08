@@ -3,7 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+img{
+    width: 100%;
+}
 :root {
     /* CSS HEX */
     /* CSS HEX */
@@ -158,7 +160,7 @@ h1 {
 
 .nett {
     display: grid;
-    grid-template-columns: 1fr 100px 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: start;
     height: 75vh;
 
