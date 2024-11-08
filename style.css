@@ -199,7 +199,6 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    padding: 10%;
 }
 
 #slide2 {
@@ -208,11 +207,20 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    padding: 10%;
+}
+
+#slide2 div {
+    border: 2px solid var(--cerulean);
+    box-shadow: 7px 5px 0 var(--marian-blue);
+    padding: 10%;
 }
 
 .url img {
-    max-height: 100%;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 #slide3 {
@@ -221,6 +229,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+    padding: 10%;
 }
 
 #slide4 {
@@ -229,6 +238,10 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
+}
+
+#slide4>div {
+    background-color: var(--caribbean-current);
 }
 
 #slide5 {
