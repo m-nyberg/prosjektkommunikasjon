@@ -189,8 +189,8 @@ h1 {
 
 .url {
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 80vh 80vh 80vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 20vh 20vh 20vh;
 }
 
 #slide1 {
