@@ -153,6 +153,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     justify-content: start;
     height: 75vh;
+    margin: 20px;
 
 }
 
@@ -165,6 +166,14 @@ h1 {
     grid-column: 3/4;
 }
 
+@media (max-width:1000px) {
+    .nett{
+        background-color: #a3b4a2ff;
+
+    }
+}
+    
+
 .rad {
     display: flex;
     width: initial;
@@ -174,6 +183,13 @@ h1 {
 .rad>img {
     border: solid var(--glaucous)20px;
     padding: 2%;
+}
+
+@media (maxwidt:1000px) {
+    .rad{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
