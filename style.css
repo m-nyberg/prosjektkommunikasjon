@@ -149,12 +149,12 @@ h1 {
 
 
 .nett {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 10px 1fr;
     justify-content: start;
-    height: 75vh;
+    height: 70vh;
     margin: 20px;
-
 }
 
 
@@ -162,8 +162,28 @@ h1 {
     grid-column: 1/2;
 }
 
+#bilde2{
+    width: 100%;
+    height: 90px;
+    object-fit: contain;
+}
+
 .bilde1 {
     grid-column: 3/4;
+    width: 100%;
+}
+    
+.rad {
+    display: flex;
+    width: initial;
+    height:30vh;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+
+.rad>img {
+    border: solid var(--glaucous)20px;
+    padding: 0;
 }
 
 @media (max-width:1000px) {
@@ -171,24 +191,10 @@ h1 {
         background-color: #a3b4a2ff;
 
     }
-}
-    
-
-.rad {
-    display: flex;
-    width: initial;
-    height:30vh;
-}
-
-.rad>img {
-    border: solid var(--glaucous)20px;
-    padding: 2%;
-}
-
-@media (maxwidt:1000px) {
     .rad{
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 }
 
