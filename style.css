@@ -378,11 +378,6 @@ h1 {
 }
 
 @media (max-width:1000px) {
-    .nett {
-        background-color: #a3b4a2ff;
-
-    }
-
     .rad {
         padding-bottom: 50px;
         padding-top: 50px;
