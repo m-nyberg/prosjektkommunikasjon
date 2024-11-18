@@ -345,6 +345,8 @@ h1 {
     max-width: 25%;
     height: auto;
     border: solid var(--cerulean) 20px;
+    transform: scale(1.05); /* Litt zoom ved hover */    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 
 
 }
