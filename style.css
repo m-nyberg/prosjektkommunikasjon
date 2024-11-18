@@ -221,11 +221,13 @@ h1 {
 
 .to{
     background-color: var(--cerulean);
+    padding: 50px;
 
 }
 
 .tre{
     background-color: var(--ash-gray);
+    padding: 50px
 }
 
 .fire{
@@ -235,6 +237,12 @@ h1 {
 .del2 h2{
     text-align: center;
     color: whitesmoke;
+    padding: 20px;
+}
+
+.del2 p,.liste{
+    font-size: 20px;
+   color: black;
 }
 
 @media (max-width:1000px) {
