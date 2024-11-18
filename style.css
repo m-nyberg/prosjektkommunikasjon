@@ -213,6 +213,7 @@ h1 {
 .førsteside {
     position: relative;
 }
+
 .sol {
     width: 100%;
 }
@@ -260,7 +261,7 @@ h1 {
     text-align: center;
     vertical-align: middle;
     border-radius: 30px;
-    
+
 }
 
 .littommeg img {
@@ -276,7 +277,7 @@ h1 {
 
 }
 
-.littommeg p:hover{
+.littommeg p:hover {
     font-size: 23px;
 }
 
@@ -315,7 +316,7 @@ h1 {
     object-fit: contain;
 }
 
-.bilde1{
+.bilde1 {
     grid-column: 3/4;
     justify-content: center;
     width: 100%;
@@ -335,35 +336,35 @@ h1 {
     max-width: 25%;
     height: auto;
     border: solid var(--cerulean) 20px;
-    
-   
+
+
 }
 
-.del2{
+.del2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto;
     width: 100%;
 }
 
-.en{
+.en {
     background-color: var(--ash-gray);
 }
 
-.to{
+.to {
     background-color: var(--cerulean);
 
 }
 
-.tre{
+.tre {
     background-color: var(--ash-gray);
 }
 
-.fire{
+.fire {
     background-color: var(--marian-blue);
 }
 
-.del2 h2{
+.del2 h2 {
     text-align: center;
     color: whitesmoke;
 }
@@ -379,33 +380,33 @@ h1 {
         flex-direction: column;
         align-items: center;
     }
-   
+
     .rad {
         padding-bottom: 50px;
         padding-top: 50px;
     }
 
-    .del2{
+    .del2 {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto auto;
     }
 
-    .en{
+    .en {
         grid-column: 1/2;
         grid-row: 1;
     }
 
-    .to{
+    .to {
         grid-column: 1/2;
         grid-row: 2;
     }
 
-    .tre{
+    .tre {
         grid-column: 1/2;
         grid-row: 3;
     }
 
-    .fire{
+    .fire {
         grid-column: 1/2;
         grid-row: 4;
     }
@@ -573,7 +574,7 @@ h1 {
         padding: 1%;
     }
 
-    #slide2  div{
+    #slide2 div {
         padding: 3%;
     }
 
@@ -581,7 +582,7 @@ h1 {
         padding: 1%;
     }
 
-    #slide3  div{
+    #slide3 div {
         padding: 1%;
     }
 }
