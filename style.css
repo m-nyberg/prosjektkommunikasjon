@@ -381,14 +381,23 @@ h1 {
     grid-column: 3/4;
     justify-content: center;
     width: 100%;
-    overflow: hidden;
-}
+ }
+
+ .bilde1 img{
+    width: 100%;
+    height: auto;
+    border: 4px solid black; 
+    border-radius: 15px; 
+    box-shadow: 7px 5px 7px black; 
+    box-sizing: border-box;
+ }
+    
 
 .rad {
     display: flex;
     width: initial;
     height: 30vh;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 100px;
 }
 
@@ -397,6 +406,8 @@ h1 {
     max-width: 25%;
     height: auto;
     border: solid var(--cerulean) 20px;
+    transform: scale(1.05); /* Litt zoom ved hover */    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 
 
 }
@@ -409,16 +420,18 @@ h1 {
 }
 
 .en {
-    background-color: var(--ash-gray);
+    background-color: var(--marian-blue);
 }
 
 .to {
     background-color: var(--cerulean);
+    padding: 50px;
 
 }
 
 .tre {
-    background-color: var(--ash-gray);
+    background-color: var(--marian-blue);
+    padding: 50px
 }
 
 .fire {
@@ -428,20 +441,15 @@ h1 {
 .del2 h2 {
     text-align: center;
     color: whitesmoke;
+    padding: 20px;
+}
+
+.del2 p,.liste{
+    font-size: 20px;
+   color: whitesmoke;
 }
 
 @media (max-width:1000px) {
-    .nett {
-        background-color: #a3b4a2ff;
-
-    }
-
-    .rad {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .rad {
         padding-bottom: 50px;
         padding-top: 50px;
