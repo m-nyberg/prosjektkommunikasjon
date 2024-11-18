@@ -378,6 +378,7 @@ h1 {
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
    
     .rad {
         padding-bottom: 50px;
@@ -561,7 +562,6 @@ h1 {
         grid-row: 4/5;
     }
 
-    #slide5 {
     /*#slide5 {
         grid-column: 1/2;
         grid-row: 5/6;
