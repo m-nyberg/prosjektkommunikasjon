@@ -327,7 +327,7 @@ h1 {
     display: flex;
     width: initial;
     height: 30vh;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     margin-top: 100px;
 }
 
@@ -381,12 +381,6 @@ h1 {
     .nett {
         background-color: #a3b4a2ff;
 
-    }
-
-    .rad {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
 
     .rad {
