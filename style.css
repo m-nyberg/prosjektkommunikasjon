@@ -412,6 +412,12 @@ h1 {
     grid-column: 1/2;
 }
 
+.skygge{    
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    border-radius: 5px;
+}
+
 #bilde2 {
     width: 100%;
     height: 450px;
@@ -492,7 +498,7 @@ h1 {
     color: whitesmoke;
 }
 
-@media (max-width:1000px) {
+@media (max-width:1200px) {
     .rad {
         padding-bottom: 50px;
         padding-top: 50px;
