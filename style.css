@@ -270,7 +270,7 @@ h1 {
 }
 
 .littommeg p {
-    font-size: 17px;
+    font-size: 15px;
     color: #012169;
     margin: 10px;
     padding: 10px;
@@ -290,9 +290,10 @@ h1 {
 .a1container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 600px 600px 600px 900px 600px;
+    grid-template-rows: 600px 600px 600px;
     text-align: center;
 }
+
 .a1container p {
     color: white;
     font-size: 28px;
