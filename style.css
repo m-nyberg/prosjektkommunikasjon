@@ -252,7 +252,7 @@ h1 {
 
     display: inline-block;
     width: 25%;
-    height: 500px;
+    height: 600px;
     border: 5px solid #187795ff;
     margin: 20px;
     margin-top: 80px;
@@ -267,6 +267,18 @@ h1 {
 .littommeg img {
     height: 25%;
     width: 60%;
+}
+
+.littommeg:hover {
+    width: 30%;
+    height: 600px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+.littommeg p:hover{
+    font-size: 23px;
 }
 
 .littommeg p {
@@ -290,9 +302,10 @@ h1 {
 .a1container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 600px 600px 600px 900px 600px;
+    grid-template-rows: 600px 600px 600px;
     text-align: center;
 }
+
 .a1container p {
     color: white;
     font-size: 28px;
