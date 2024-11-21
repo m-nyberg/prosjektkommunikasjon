@@ -469,7 +469,7 @@ h1 {
 .del2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
     width: 100%;
 }
 
@@ -492,6 +492,14 @@ h1 {
     background-color: var(--marian-blue);
 }
 
+.fem{
+    background-color: navajowhite;
+}
+
+.seks{
+    background-color: var(--caribbean-current);
+}
+
 .del2 h2 {
     text-align: center;
     color: whitesmoke;
@@ -512,7 +520,7 @@ h1 {
 
     .del2 {
         grid-template-columns: 1fr;
-        grid-template-rows: auto auto auto auto;
+        grid-template-rows: auto auto auto auto auto auto;
     }
 
     .en {
@@ -533,6 +541,16 @@ h1 {
     .fire {
         grid-column: 1/2;
         grid-row: 4;
+    }
+
+    .fem{
+        grid-column:1/2 ;
+        grid-row: 5;
+    }
+
+    .seks{
+        grid-column: 1/2;
+        grid-row: 6;
     }
 }
 
