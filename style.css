@@ -74,7 +74,7 @@ h1 {
 
 
 .bcontainer {
-    width: 70%;
+    width: 1000px;
     margin: auto;
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
@@ -249,7 +249,7 @@ h1 {
 .littommeg {
 
     display: inline-block;
-    width: 25%;
+    width: 350px;
     height: 600px;
     border: 5px solid #187795ff;
     margin: 20px;
@@ -299,10 +299,6 @@ h1 {
     padding: 25px;
 }
 
-/*.a1container img {
-    height: 80%;
-    width: 80%;
-}*/
 
 .a1container h2 {
     color: white;
@@ -356,48 +352,46 @@ h1 {
 
 @media(max-width:970px) {
     .a1container {
-        width: 80%;
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
+        row-gap: 20px;
     }
-   /* .a1container {
-        display: grid;
-        grid-template-columns: 80%;
-        grid-template-rows: 600px 600px 600px 300px 600px 600px 600px 600px;
-        margin: auto;
 
+    .a1container * {
+        width: 90%;
     }
-    #aboks2 {
-        grid-row: 1/2;
-        grid-column: 1/2;
-    }
-    #aboks1 {
-        grid-row: 2/3;
 
-        grid-column: 1/2;
-    }
-    #aboks3 {
-        grid-row: 3/4;
+}
 
-        grid-column: 1/2;
+@media(max-width:1014px) {
+    .acontainer {
+        flex-direction: column;
+        align-items: center;
     }
-    #aboks4 {
-        grid-row: 4/5;
-        grid-column: 1/2;
+
+    .acontainer>* {
+        width: 70%;
+        height: fit-content;
     }
-    #aboks6 {
-        grid-row: 5/6;
 
-        grid-column: 1/2;
+    .acontainer img {
+        width: 35%;
     }
-    #aboks5 {
-        grid-row: 6/7;
 
-        grid-column: 1/2;
-    }*/
+    .bcontainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+    }
 
-    
+
+
 }
 
 
@@ -418,7 +412,7 @@ h1 {
     grid-column: 1/2;
 }
 
-.skygge{    
+.skygge {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     padding: 8px;
     border-radius: 5px;
@@ -492,11 +486,11 @@ h1 {
     background-color: var(--marian-blue);
 }
 
-.fem{
+.fem {
     background-color: navajowhite;
 }
 
-.seks{
+.seks {
     background-color: var(--caribbean-current);
 }
 
@@ -543,12 +537,12 @@ h1 {
         grid-row: 4;
     }
 
-    .fem{
-        grid-column:1/2 ;
+    .fem {
+        grid-column: 1/2;
         grid-row: 5;
     }
 
-    .seks{
+    .seks {
         grid-column: 1/2;
         grid-row: 6;
     }
