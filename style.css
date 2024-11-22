@@ -492,6 +492,7 @@ h1 {
 
 .seks{
     background-color: var(--caribbean-current);
+    padding: 50px;
 }
 
 .del2 h2 {
@@ -500,7 +501,6 @@ h1 {
     padding: 20px;
 }
 
-.del2 p,
 .liste {
     font-size: 20px;
     color: whitesmoke;
