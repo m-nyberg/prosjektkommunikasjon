@@ -212,7 +212,7 @@ h1 {
     position: relative;
 }
 
-.sol {
+.bakgrunnsbildeM {
     width: 100%;
 }
 
@@ -297,6 +297,8 @@ h1 {
     color: white;
     font-size: 25px;
     padding: 25px;
+    text-align: center;
+    margin: auto;
 }
 
 
@@ -304,6 +306,7 @@ h1 {
     color: white;
     font-size: 45px;
     padding: 25px;
+    margin: auto;
 }
 
 .a1container ul {
