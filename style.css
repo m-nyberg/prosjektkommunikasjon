@@ -366,7 +366,6 @@ h1 {
     .a1container * {
         width: 90%;
     }
-
 }
 
 @media(max-width:1014px) {
@@ -382,6 +381,11 @@ h1 {
 
     .acontainer img {
         width: 35%;
+    }
+
+
+    .bcontainer img {
+        width: 60%;
     }
 
     .bcontainer {
