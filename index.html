@@ -11,6 +11,7 @@
             position: absolute;
             z-index: 1;
             top: 250px;
+            bottom: 250px;
             left: 0;
             color: aliceblue;
             font-family: Verdana;
@@ -21,9 +22,19 @@
             text-align: center;
             text-shadow: 3px 3px 5px #000;
             mix-blend-mode: overlay;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .video {
             position: relative;
+        }
+
+        @media (width<800px) {
+            .videotext h1 {
+                font-size: 50px;
+            }
+
         }
     </style>
 </head>
